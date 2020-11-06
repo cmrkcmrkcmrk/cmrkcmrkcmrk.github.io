@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Picadu</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
     <header class="header"> 
@@ -41,6 +42,33 @@
                     <li class="post-tag"><a class="post-tag-link" href="index.html">#случайность</a></li>
                 </ul>
             </p>
+            <div class="post-footer">
+                <div class="post-footer-buttons">
+                    <button class="post-footer-button likes" id="button-like">
+                        <img class="post-footer-button-like-img" src="img/icon-like.png" id="like" alt="">
+                       
+                       <!-- <svg class="post-footer-button-like img" width="19px" height="20px">
+                            <use xlink:href="images/icons.svg#Vector"></use>
+                          </svg>  -->
+                        <span class="post-footer-button-likes-count">1337</span>
+                    </button>
+                    <button class="post-footer-button repost" id="button-repost">
+                        <img src="img/icon-repost.png" id="repost" alt="" class="post-footer-button-repost-img">
+                       <!-- <svg class="post-footer-button-repost img" width="19px" height="20px">
+                            <use xlink:href="images/icons.svg#Vector"></use>
+                          </svg>  -->
+                        <span class="post-footer-button-repost-count">228</span>
+                    </button>
+                    <!-- вместо кнопок делаю img и ховер к нему, счётчик в джаве -->
+                </div>
+                <div class="post-author">
+                    <div class="author-about">
+                        <a href="#" class="author-username">CMRKCMRKCMRK</a>
+                        <span class="post-time">Минуту назад</span>
+                    </div>
+                    <img class="author-user-img" src="img/avatar.png" alt="">
+                </div>
+            </div>
         </div>
         <aside class="sidebar">
             <div class="user">
@@ -78,8 +106,23 @@
                     </li>
                 </ul>
             </nav>
+            <a  class="sidebar-post-button" href="#">Опубликовать пост</a>
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="card-title">Комментарий дня</h2>
+                </div>
+                <div class="card-body">
+                    <a class="card-body-title" href="#">Как обмануть банкомат, если вы хотите снять больше наличных</a>
+                </div>
+                <div class="card-content">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Бросил дорогу выйти возвращайся дороге проектах свой его, запятых жаренные маленькая продолжил свое вопроса власти переулка вершину если. Города, послушавшись. Далеко-далеко, за словесными горами в стране гласных и согласных живут рыбные тексты. Текст переписывается свое там путь! Предупредила первую предложения путь от всех пор маленькая, эта рукопись, осталось вершину переписывается выйти грамматики инициал.</div>
+            </div>
+            <div class="adv">
+                <img class="adv-img" src="img/ad.jpg" alt="">
+                <p class="adv-tip">Реклама</p>
+            </div>
         </aside>
+        
     </section>
-
+<script src="script.js"></script>
 </body>
 </html>
